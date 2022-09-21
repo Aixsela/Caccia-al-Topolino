@@ -1,0 +1,50 @@
+body {
+    background-image: url("img/Sfondo1.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 2px 1px black;
+}
+
+#cards {
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.card {
+    background-color: darkseagreen;
+    width: 200px;
+    height: 360px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(62, 36, 36);
+}
+
+.cat  {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn_card {
+    background-color: gold;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    font-size: large;
+}
+
+.btn_card:hover {
+    cursor: pointer;
+    background-color: rgb(255, 187, 0);
+}
+
+.hidden {
+    display: none;
+}
